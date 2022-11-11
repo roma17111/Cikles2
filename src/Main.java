@@ -10,6 +10,37 @@ public class Main {
             System.out.println("Месяц " + m++ + " сумма накоплений равна " + total + " рублей.");
            }
 
+           int a =0;
+           while (a <=10) {
+             System.out.print(a ++ + " ");
+               System.out.print(a ++ + " ");
+               System.out.print(a ++ + " ");
+               System.out.print(a ++ + " ");
+               System.out.print(a ++ + " ");
+               System.out.print(a ++ + " ");
+               System.out.print(a ++ + " ");
+               System.out.print(a ++ + " ");
+               System.out.print(a ++ + " ");
+               System.out.print(a ++ + " ");
+               System.out.println(a ++);
+
+           }
+           for (int b =10; b >=0;) {
+               System.out.print(b-- + " ");
+               System.out.print(b-- + " ");
+               System.out.print(b-- + " ");
+               System.out.print(b-- + " ");
+               System.out.print(b-- + " ");
+               System.out.print(b-- + " ");
+               System.out.print(b-- + " ");
+               System.out.print(b-- + " ");
+               System.out.print(b-- + " ");
+               System.out.print(b-- + " ");
+               System.out.println(b-- + " ");
+
+
+           }
+
 
     }
 }
