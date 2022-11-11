@@ -58,6 +58,18 @@ public class Main {
         }
         // На сотом месяце сумма накоплений привысит 12_000_000//
 
+        int vasyaDep = 15000;
+        int aMonth = 1;
+        int allMonth = 9*12;
+        for (; aMonth <= allMonth; aMonth++) {
+            vasyaDep = vasyaDep + vasyaDep /100 *7;
+            if (aMonth % 6 ==0) {
+                System.out.println("В " + aMonth + " месяце сумма у Васи будет " + vasyaDep + " рубля(лей)");
+            }
+
+        }
+
+
 
     }
 }
