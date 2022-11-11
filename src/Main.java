@@ -4,11 +4,12 @@ public class Main {
     public static void main(String[] args) {
         int deposit = 15000;
         int total = 0;
-        int m = 1;
-        while (total < 2_459_000) {
+        for (int m =1; total <=2459000; m++)
+        {
             total = total + total / 100;
             total = total + deposit;
-            System.out.println("Месяц " + m++ + " сумма накоплений равна " + total + " рублей.");
+            System.out.println("Месяц " + m + " сумма накоплений равна " + total + " рублей.");
+
         }
 
         int a = 0;
@@ -46,6 +47,14 @@ public class Main {
                 y = y + y * 9 / 1000;
 
             }
+                // задание 2.1.//
+            int dep = 15000;
+            int month = 1;
+            while (dep <12_000_000) {
+                System.out.println("Месяц " + month++ + "Сумма накоплений" + dep);
+                dep = dep + dep / 100 * 7;
+            }
+            // На сотом месяце сумма накоплений привысит 12_000_000//
 
 
 
