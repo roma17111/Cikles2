@@ -1,13 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        int deposit = 29000;
+        int deposit = 15000;
         int total = 0;
-        for (int m = 1; m <= 12; m++) {
+        int m =1;
+           while ( total <2_459_000)
+           {
             total = total + total /100;
             total = total + deposit;
-            System.out.println("Месяц " + m + " сумма накоплений равна " + total + " рублей.");
+            System.out.println("Месяц " + m++ + " сумма накоплений равна " + total + " рублей.");
+           }
 
-        }
 
     }
 }
