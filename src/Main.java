@@ -74,6 +74,13 @@ public class Main {
             System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет.");
         }
 
+        int astroYear = 0;
+        for (;astroYear <=2122; astroYear +=79) {
+            if (astroYear >= 1822) {System.out.println(astroYear);}
+        }
+
+
+
 
     }
 }
