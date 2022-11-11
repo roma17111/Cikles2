@@ -79,6 +79,13 @@ public class Main {
             if (astroYear >= 1822) {System.out.println(astroYear);}
         }
 
+        int number2 =2;
+        int number = 1;
+        for (; number <=10; number ++) {
+            int equile = number2 * number;
+            System.out.println(number2 + "*" + number + "=" + equile);
+        }
+
 
 
 
