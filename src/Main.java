@@ -37,9 +37,10 @@ public class Main {
             System.out.print(b-- + " ");
             System.out.print(b-- + " ");
             System.out.print(b-- + " ");
-            System.out.println(b-- + " ");
+            System.out.println(b-- + " ");        }
 
-            int y = 12_000_000;
+
+        int y = 12_000_000;
             for (int year = 1; year <= 10; year++) {
                 System.out.println("Год " + year + " численность населения составляет " + y + " человек(ка)");
                 y = y + y * 9 / 1000;
@@ -47,7 +48,6 @@ public class Main {
             }
 
 
-        }
 
 
     }
