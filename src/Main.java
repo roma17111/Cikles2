@@ -69,6 +69,10 @@ public class Main {
 
         }
 
+        int friday = 3;
+        for (; friday <= 31; friday+=7) {
+            System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет.");
+        }
 
 
     }
